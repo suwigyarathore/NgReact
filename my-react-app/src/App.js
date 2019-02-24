@@ -24,10 +24,10 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">React meets Angular</h1>
+          <h1 className="App-title">React consuming Angular</h1>
         </header>
         <div className="form-container">
-          <feedback-form ref={this.handleRef} />
+          <feedback-form name="Suwigya" ref={this.handleRef} />
         </div>
       </div>
     );
